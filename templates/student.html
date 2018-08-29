@@ -7,18 +7,19 @@
 </head>
 
 <body>
-
-    <form action="{{ url_for('addrec') }}" method="POST">
-        <h3>QuickBin</h3>
-        <div class="container">UserName<br>
-            <input type="text" name="nm" /><br>
-        </div>
-        <div class="container">Text<br>
-            <textarea name="add" placeholder="Paste your text here" rows="5"></textarea><br><br>
-        </div>
-        <div class="container">
-            <input class="btn btn-primary" type="submit" value="submit" /></div>
-    </form>
+    <div class="container">
+        <form action="{{ url_for('addrec') }}" method="POST">
+            <h1><b>QUICKBIN</b></h1>
+            <div class="container"><b>UserName</b><br>
+                <input type="text" name="nm" /><br>
+            </div>
+            <div class="container"><b>Text</b><br>
+                <textarea name="add" placeholder="Paste your text here" rows="10" cols="100"></textarea><br><br>
+            </div>
+            <div class="container">
+                <input class="btn btn-primary" type="submit" value="Submit" /></div>
+        </form>
+    </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
