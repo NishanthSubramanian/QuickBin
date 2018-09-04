@@ -2,7 +2,7 @@
 This is my version of the website Pastebin (https://pastebin.com).<br>
 It was coded using Python.<br>
 The database used was SQLite3.<br>
-The Bonus tasks were attempted. Syntax Highlighting was added. Time was insuffecient to complete the rest.<br>
+The Bonus tasks were attempted. Syntax Highlighting was added( highlight.js was used) Time was insuffecient to complete the rest.<br>
 <h3>Frameworks Used</h3>
 <ul>
   <li>HTML</li>
