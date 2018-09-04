@@ -16,15 +16,17 @@
         <h5>{{row["name"]}}</h5>
         <h4><b>Pasted Text</b></h4>
         <div class="card">
-            <div class="card-body">{{row["addr"]}}</div>
+            <div class="card-body"><pre><code class="python css html">{{row["addr"]}}</code></pre></div>
         </div>
         {% endfor %}
 
-
-        <a href="/">Go back to home page</a>
-        <!-- <a href="/editable">Edit</a> -->
+        <br>
+        <a class="btn btn-info" style="margin-bottom: 100px" href="/">Home</a>
     </div>
 </body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/xcode.min.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
